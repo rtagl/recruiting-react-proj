@@ -29,9 +29,10 @@ Candidates should write clean, declarative, and functional code and abide by goo
 | Vera, Rob     | 88    | Delete |
 
 ## Submitting the project
- * Fork this project to a repo on candidate's GitHub
+ * Candidate should create a new repo for this project on their own GitHub account
  * Complete application
- * Notify contact that repo is ready for review
+ * Deploy application to a production environment
+ * Notify PGA contact that repo is ready for review, providing both URLs to the repo and running app
 
 ## Bonus
 
