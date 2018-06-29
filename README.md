@@ -12,10 +12,10 @@ Candidates should write clean, declarative, and functional code and abide by goo
 
 ## Requirements
 
-* Application must be written in React using either a boilerplate framework or none at all. Use of [CREATE REACT APP](https://github.com/facebook/create-react-app) or [NWB](https://github.com/insin/nwb) is preferred.
+* Application must be written in React.
 
-* The application must support the following main features.
-  * Have a form so users can add/edit players. The form must include the following three fields: `firstName:String`, `lastName:String`, `score:Integer`
+* The application must support the following main features:
+  * Have a form so users can add/edit players. The form must include the following three fields: `firstName:String`, `lastName:String`, `score:Integer[0,100]`
   * Display the leaderboard in a tabular format sorted by `score`, and `lastName` in ASCENDING order. Therefore, if two players have the same `score`, the sorting will fall back to `lastName`
   * The names displayed on the leaderboard should be combined into one field when displaying as such: `lastName, firstName`
   * Have the ability to remove players by clicking a `Delete` button in the leaderboard.
@@ -34,10 +34,5 @@ Candidates should write clean, declarative, and functional code and abide by goo
  * Notify contact that repo is ready for review
 
 ## Bonus
-These are not required to complete the project but present opportunities to showcase additional skills.
 
-* Test coverage
-* Deployment to a production runtime
-* Click on leaderboard headers to override default sorting
-* Form validation
-* Integration with with a `REST` or `GraphQL` API
+It's encouraged that candidates add additional and reasonable features to the leaderboard to contribute to its function. Similarly, candidates should feel free to include more advanced programming techniques and concepts of their particular interests.
